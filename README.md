@@ -32,3 +32,7 @@ node.js, git
 Добавить службу для отключения виндовс
 
 ```node startService.js```
+
+Для отключения ПК отправить GET запрос
+
+```ip-address-PC:8032/shutdown```
