@@ -1,9 +1,11 @@
 # shutdown-server
 
+Сервер GET запросов для отключение ПК на ОС Windows по сети
+
 ## Установка зависимостей
 
 Зависимости:
-node.js, git
+node.js, git, node-windows
 
 Скачать [node.js для Windows 64-bit](https://nodejs.org/dist/v16.15.0/node-v16.15.0-x64.msi "Скачать node.js v16.15.0 для Windows 64-bit")
 
