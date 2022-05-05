@@ -47,8 +47,12 @@ node.js, git, node-windows
 
 ```node deleteSevice.js```
 
-## Отключение ПК на ОС Windows по сети
+## Управление ПК на ОС Windows по сети
 
 Для отключения ПК отправить GET запрос
 
 ```ip-address-PC:8032/shutdown```
+
+Для перезагрузки ПК отправить GET запрос
+
+```ip-address-PC:8032/reboot```

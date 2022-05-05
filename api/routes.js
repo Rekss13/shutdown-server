@@ -6,4 +6,6 @@ module.exports = function (app) {
 
     app.route('/shutdown')
         .get(controller.shutdown);
+    app.route('/reboot')
+        .get(controller.reboot);
 };
